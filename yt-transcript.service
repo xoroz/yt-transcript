@@ -1,0 +1,28 @@
+sudo tee /etc/systemd/system/yt-transcript.service >/dev/null <<'UNIT'
+[Unit]
+Description=YouTube Transcript API (FastAPI/Uvicorn)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=felix
+WorkingDirectory=/home/felix/projects/yt-transcript
+Environment=YTA_COOKIES_PATH=/home/felix/projects/yt-transcript/youtube-cookies.txt
+Environment=YTA_MIN_FETCH_INTERVAL=10
+
+# If you want to bind only to Tailscale IP, replace 0.0.0.0 with that IP
+ExecStart=/home/felix/projects/yt-transcript/venv/bin/uvicorn server:app --host 0.0.0.0 --port 8787
+
+Restart=always
+RestartSec=3
+
+# Optional hardening (safe defaults for this kind of service)
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=false
+
+[Install]
+WantedBy=multi-user.target
+UNIT

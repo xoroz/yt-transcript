@@ -1,0 +1,14 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.youtube.com	TRUE	/	TRUE	1783032489	PREF	f6=40000000&tz=Europe.Rome
+.youtube.com	TRUE	/	TRUE	1783032363	__Secure-YENID	12.YTE=l8P0rzuWWg95fnjnUxiUChN32LAoQH5gomW04aqBNUKatug7uhp-ViZXcMLhhAHkhUdiD4FgE-1rVF-ybuVuu43lCGy5S_y9NLApPoZrt5slQY3JUm0VFSYscmsX-l9_n_0YUWPLi6PpnI8mQAHYTb-myx5N4fxmuc62uR3qpaQU1wN_6RJGBs-cqZooC_cot9_gp07oUREmhF7RYMl41CBNKlprIMkM6bayosybEbxTKTxw4PboTnF5-6OPQi9Er4LNsCcctileeFvTFY3Wjm5t860G8mJy9Vu-IZVxUH59WLYRwOqkt_3DytjHZmzC4V8GAGHa8sBKIGQPKOil0w
+.youtube.com	TRUE	/	TRUE	1783032365	SOCS	CAISEwgDEgk4NDc1MjQ3NDkaAmVuIAEaBgiAuOHKBg
+.youtube.com	TRUE	/	TRUE	1783032365	VISITOR_INFO1_LIVE	7achfsoli8Q
+.youtube.com	TRUE	/	TRUE	1767482166	GPS	1
+.youtube.com	TRUE	/	TRUE	0	YSC	DpLxtVAFTtY
+.youtube.com	TRUE	/	TRUE	1783032487	VISITOR_INFO1_LIVE	qGqHrvJe5Ak
+.youtube.com	TRUE	/	TRUE	1783032487	VISITOR_PRIVACY_METADATA	CgJJVBIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiA7
+.youtube.com	TRUE	/	TRUE	1783032366	__Secure-ROLLOUT_TOKEN	CLKr6aGplYLgQxDFz7y6ufCRAxicldK6ufCRAw%3D%3D
+
